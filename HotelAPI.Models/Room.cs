@@ -2,8 +2,8 @@
 {
     public class Room : AuditBase
     {
-        public string Name { get; set; }
-        public int? MaxGuests { get; set; }
-        public IEnumerable<Hotel>? Hotels { get; set; }
+        public string Name { get; set; } = string.Empty;
+        public int? MaxGuests { get; set; } = 0;
+        public Hotel Hotel{ get; set; }
     }
 }
