@@ -7,10 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.Authentication.Negotiate" Version="6.0.21" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\HotelAPI.Data\HotelAPI.Data.csproj" />
   </ItemGroup>
 
