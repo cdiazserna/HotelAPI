@@ -6,8 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace HotelAPI.WebAPI.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
-    [Authorize]
+    [Route("api/[controller]")]
     public class RoomsController : GenericController<Room>
     {
         public RoomsController(IGenericUnitOfWork<Room> unit) : base(unit)
